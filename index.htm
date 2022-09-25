@@ -42,6 +42,12 @@
 			text-align: center;
 			valign: middle;
 		}
+		.video-mask {
+			width: 100%;
+			height: 100%;
+			border-radius: 20px; 
+			overflow: hidden; 
+		}
 		</style>
 	</head>
 	<body>
@@ -54,32 +60,40 @@
 					<br><br><br>
 					
 					<!-- Store Links -->
-					<font color="#ff810a" size="2.5">wishlist</font><br><br>
-					<a href=""><i class="fa-brands fa-steam-square 	fa-2xl fa-beat" style="color:#ff810a;font-size:48px;--fa-beat-scale:1.2;--fa-animation-duration:6s;"></i></a>&nbsp;&nbsp;&nbsp;
-					<a href="https://nickmuse.itch.io/mobspawn"><i class="fa-brands fa-itch-io 		fa-2xl fa-beat" style="color:#ff810a;font-size:48px;--fa-beat-scale:1.2;--fa-animation-duration:6s;"></i></a>
+					<h2>wishlist</h2>
+					<a href=""><i class="fa-brands fa-steam-square 	fa-2xl fa-beat" style="color:#ff810a;font-size:48px;--fa-beat-scale:.9;--fa-animation-duration:1.5s;"></i></a>&nbsp;&nbsp;&nbsp;
+					<a href="https://nickmuse.itch.io/mobspawn"><i class="fa-brands fa-itch-io 		fa-2xl fa-beat" style="color:#ff810a;font-size:48px;--fa-beat-scale:.9;--fa-animation-duration:1.5s;"></i></a>
 					
 					
 					<br><br><br>
 					
 					<!-- Screenshots and description -->
 					<center>
-					<table width="900" cellspacing="20">
+					<table width="900" cellspacing="60" border="0">
 						<tr>
 							<!--<td><div align="left"><img src="v1.webm" width="400" height="225"></td>-->
-							<td><div align="right"><video width="400" autoplay loop muted><source src="elevator.webm" type="video/webm" /></video></td>
-							<td><div align="left"><h2>elevate</h2>ascend the floors of Mobspawn in this procedurally generated, isometric twin-stick shooter.</td>
+							<td width="60%" colspan="2">
+								<div align="right"><video class="video-mask" autoplay loop muted><source src="elevator.webm" type="video/webm" /></video></div>
+							</td>
+							<td width="40%" colspan="1"><div align="left"><h2>elevate</h2>ascend the floors of Mobspawn in this procedurally generated, isometric twin-stick shooter.</td>
 						</tr>
 						<tr>
-							<td><div align="right"><h2>escalate</h2>the ever out-of-touch CEO has laid off all staff in favor of traditional video game mobs.</td>
-							<td><div align="left"><video width="400" autoplay loop muted><source src="mobs.webm" type="video/webm" /></video></td>
+							<td width="40%" colspan="1"><div align="right"><h2>escalate</h2>the ever out-of-touch CEO has laid off all staff in favor of traditional video game mobs.</td>
+							<td width="60%" colspan="2">
+								<div align="left"><video class="video-mask" autoplay loop muted><source src="mobs.webm" type="video/webm" /></video></div>
+							</td>
 						</tr>
 						<tr>
-							<td><div align="right"><video width="400" autoplay loop muted><source src="combat.webm" type="video/webm" /></video></td>
-							<td><div align="left"><h2>upcycle</h2>your vacuum unit allows you to repurpose your surroundings as projectiles.</td>
+							<td width="60%" colspan="2">
+								<div align="right"><video class="video-mask" autoplay loop muted><source src="combat.webm" type="video/webm" /></video></div>
+							</td>
+							<td width="40%" colspan="1"><div align="left"><h2>upcycle</h2>your vacuum unit allows you to repurpose your surroundings as projectiles.</td>
 						</tr>
 						<tr>
-							<td><div align="right"><h2>upgrade</h2>improve your abilities with whatever you can find. you'll need it.</td>
-							<td><div align="left"><video width="400" autoplay loop muted><source src="shop.webm" type="video/webm" /></video></td>
+							<td width="40%" colspan="1"><div align="right"><h2>upgrade</h2>improve your abilities with whatever you can find. you'll need it.</td>
+							<td width="60%" colspan="2">
+								<div align="left"><video class="video-mask" autoplay loop muted><source src="shop.webm" type="video/webm" /></video></div>
+							</td>
 						</tr>
 					</table>
 					</center>
