@@ -50,6 +50,23 @@
 			border-radius: 20px; 
 			overflow: hidden; 
 		}
+		/* Scrollbar Firefox */
+		* {
+			scrollbar-width: auto;
+			scrollbar-color: var(--gray) var(--black);
+		}
+		/* Scrollbar Chrome, Edge, and Safari */
+		*::-webkit-scrollbar {
+			width: 30px;
+		}
+		*::-webkit-scrollbar-track {
+			background: var(--black);
+		}
+		*::-webkit-scrollbar-thumb {
+			background-color: var(--gray);
+			border-radius: 30px;
+			border: 10px none var(--black);
+		}
 		</style>
 	</head>
 	<body>
